@@ -1,0 +1,8 @@
+{
+  "name": "Ratisbona Coding e.V.",
+  "short_name": "RC e.V.",
+  "start_url": ".",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
