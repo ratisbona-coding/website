@@ -12,14 +12,17 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@popperjs/core": "^2.11.6",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.13",
+		"classnames": "^2.3.2",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
+		"flowbite": "^1.5.3",
 		"postcss": "^8.4.19",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
