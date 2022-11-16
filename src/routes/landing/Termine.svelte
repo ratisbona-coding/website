@@ -1,0 +1,68 @@
+<script>
+	import hb from '$lib/images/hackaburg.svg';
+
+	let cards = [
+		{
+			title: 'Kanutour',
+			date: {
+				day: '01',
+				month: 'Jan. 2023',
+				time: 'Mi. 18.00'
+			},
+			description:
+				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+			image: 'https://via.placeholder.com/700x250'
+		},
+		{
+			title: 'Jahresversammlung',
+			date: {
+				day: '03',
+				month: 'Feb. 2023',
+				time: 'Do. 18.00'
+			},
+			description:
+				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+			image: hb
+		},
+		{
+			title: 'Michaels Rausschmiss weil er frech ist',
+			date: {
+				day: '12',
+				month: 'Oct. 2023',
+				time: 'Fr. 18.00'
+			},
+			description:
+				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+			image: hb
+		}
+	];
+</script>
+
+<section class="container mx-auto px-6 p-10" id="ziele">
+	<h2 class="text-4xl font-bold text-center text-black-800 mb-8">Termine</h2>
+	<hr class="my-4 mx-auto w-20 h-1 bg-gray-800 rounded border-0 md:my-10 dark:bg-gray-700" />
+
+	<div class="flex items-center flex-wrap mb-20" />
+
+	<div
+		class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-10 mt-4 w-full mb-32"
+	>
+		{#each cards as card}
+			<div class="flex justify-center w-full">
+				<div class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl">
+					<div class="date ml-8 mt-8 mr-32 mb-8 text-center">
+						<h1 class="text-lime-500 text-4xl">{card.date.day}</h1>
+						<p class="text-black text-sm overflow-auto">{card.date.month}</p>
+						<p class="text-black text-sm">{card.date.time}</p>
+					</div>
+					<div class="flex flex-col justify-start">
+						<h5 class="mt-8 text-gray-900 text-xl font-medium mb-2">{card.title}</h5>
+						<p class="text-gray-700 text-base mb-8 mr-8">
+							{card.description}
+						</p>
+					</div>
+				</div>
+			</div>
+		{/each}
+	</div>
+</section>
