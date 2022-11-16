@@ -5,19 +5,20 @@
 <footer class="p-4 bg-gray-200 sm:p-6">
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between mt-8">
-			<div class="mb-6 md:mb-0 ml-20 w-1/2 sm:gap-6 sm:grid-cols-3">
+			<div class="mb-6 md:mb-0 ml-20 w-1/2 sm:gap-6 sm:grid-cols-1 lg:grid-cols-1">
 				<a href="/" class="flex items-center">
 					<img src={logo} class="mr-3 h-8" alt="ratisbona coding e.V. Logo" />
 				</a>
-				<p class="w-1/2 mt-8 text-md">
+				<p class="max-w-xs mt-4 text-sm text-gray-600">
 					Hier steht eine wahnsinnig tolle Beschreibung. Trafalgar provides something something,
 					Text aus dem Mockup geklaut.
 				</p>
+
 				<p class="w-1/2 text-sm mt-8 font-normal">Made with 💚 in Regensburg</p>
 			</div>
-			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-1">
+			<div class="grid grid-cols-1 ml-8 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-2">
 				<div>
-					<h2 class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white">Verein</h2>
+					<h2 class="mb-6text-md font-bold text-gray-900 uppercase dark:text-white">Verein</h2>
 					<ul class="text-gray-600 dark:text-gray-400">
 						<li class="mb-4">
 							<a href="#datenschutz" class="hover:underline">Datenschutz</a>
@@ -37,19 +38,19 @@
 					<h2 class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white">Hackathon</h2>
 					<ul class="text-gray-600 dark:text-gray-400">
 						<li class="mb-4">
-							<a href="#" class="hover:underline">Hackaburg 2023</a>
+							<a href="https://www.hackaburg.de" class="hover:underline">Hackaburg 2023</a>
 						</li>
 						<li class="mb-4">
-							<a href="#" class="hover:underline">Hackaburg 2022</a>
+							<a href="https://www.hackaburg.de/2022" class="hover:underline">Hackaburg 2022</a>
 						</li>
 						<li class="mb-4">
-							<a href="#" class="hover:underline">Hackaburg 2019</a>
+							<a href="https://www.hackaburg.de/2019" class="hover:underline">Hackaburg 2019</a>
 						</li>
 						<li class="mb-4">
-							<a href="#" class="hover:underline">Hackaburg 2018</a>
+							<a href="https://www.hackaburg.de/2018" class="hover:underline">Hackaburg 2018</a>
 						</li>
 						<li class="mb-4">
-							<a href="#" class="hover:underline">Hackaburg 2017</a>
+							<a href="https://www.hackaburg.de/2017" class="hover:underline">Hackaburg 2017</a>
 						</li>
 						<li class="mb-4">
 							<a href="#" class="hover:underline">Hackaburg 2016</a>
