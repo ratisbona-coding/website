@@ -1,86 +1,62 @@
-<footer class="bg-gray-100 text-center lg:text-left">
-	<div class="container p-6">
-		<div class="grid lg:grid-cols-4 md:grid-cols-2">
-			<div class="mb-6">
-				<h5 class="uppercase font-bold mb-2.5 text-gray-800">Links</h5>
+<script>
+	import logo from '$lib/images/rb_logo.svg';
+</script>
 
-				<ul class="list-none mb-0">
-					<li>
-						<a href="#!" class="text-gray-800">Link 1</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 2</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 3</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 4</a>
-					</li>
-				</ul>
+<footer class="p-4 bg-gray-200 sm:p-6">
+	<div class="mx-auto max-w-screen-xl">
+		<div class="md:flex md:justify-between mt-8">
+			<div class="mb-6 md:mb-0 ml-20 w-1/2 sm:gap-6 sm:grid-cols-3">
+				<a href="/" class="flex items-center">
+					<img src={logo} class="mr-3 h-8" alt="ratisbona coding e.V. Logo" />
+				</a>
+				<p class="w-1/2 mt-8 text-md">
+					Hier steht eine wahnsinnig tolle Beschreibung. Trafalgar provides something something,
+					Text aus dem Mockup geklaut.
+				</p>
+				<p class="w-1/2 text-sm mt-8 font-normal">Made with 💚 in Regensburg</p>
 			</div>
-
-			<div class="mb-6">
-				<h5 class="uppercase font-bold mb-2.5 text-gray-800">Links</h5>
-
-				<ul class="list-none mb-0">
-					<li>
-						<a href="#!" class="text-gray-800">Link 1</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 2</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 3</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 4</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="mb-6">
-				<h5 class="uppercase font-bold mb-2.5 text-gray-800">Links</h5>
-
-				<ul class="list-none mb-0">
-					<li>
-						<a href="#!" class="text-gray-800">Link 1</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 2</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 3</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 4</a>
-					</li>
-				</ul>
-			</div>
-
-			<div class="mb-6">
-				<h5 class="uppercase font-bold mb-2.5 text-gray-800">Links</h5>
-
-				<ul class="list-none mb-0">
-					<li>
-						<a href="#!" class="text-gray-800">Link 1</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 2</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 3</a>
-					</li>
-					<li>
-						<a href="#!" class="text-gray-800">Link 4</a>
-					</li>
-				</ul>
+			<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-1">
+				<div>
+					<h2 class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white">Verein</h2>
+					<ul class="text-gray-600 dark:text-gray-400">
+						<li class="mb-4">
+							<a href="#datenschutz" class="hover:underline">Datenschutz</a>
+						</li>
+						<li class="mb-4">
+							<a href="#impressum" class="hover:underline">Impressum</a>
+						</li>
+						<li class="mb-4">
+							<a href="#datenschutz" class="hover:underline">Mitgliedsantrag</a>
+						</li>
+						<li class="mb-4">
+							<a href="#datenschutz" class="hover:underline">Satzung</a>
+						</li>
+					</ul>
+				</div>
+				<div class="grid-cols-1 ml-8 mr-32 w-full sm:gap-6 sm:grid-cols-1">
+					<h2 class="mb-6 text-md font-bold text-gray-900 uppercase dark:text-white">Hackathon</h2>
+					<ul class="text-gray-600 dark:text-gray-400">
+						<li class="mb-4">
+							<a href="#" class="hover:underline">Hackaburg 2023</a>
+						</li>
+						<li class="mb-4">
+							<a href="#" class="hover:underline">Hackaburg 2022</a>
+						</li>
+						<li class="mb-4">
+							<a href="#" class="hover:underline">Hackaburg 2019</a>
+						</li>
+						<li class="mb-4">
+							<a href="#" class="hover:underline">Hackaburg 2018</a>
+						</li>
+						<li class="mb-4">
+							<a href="#" class="hover:underline">Hackaburg 2017</a>
+						</li>
+						<li class="mb-4">
+							<a href="#" class="hover:underline">Hackaburg 2016</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
-	</div>
-
-	<div class="text-gray-700 text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-		© 2021 Copyright:
-		<a class="text-gray-800" href="https://tailwind-elements.com/">Tailwind Elements</a>
 	</div>
 </footer>

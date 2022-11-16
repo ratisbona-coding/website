@@ -20,5 +20,4 @@
 	<Mitglied />
 	<Termine />
 </div>
-
 <Footer />
