@@ -1,5 +1,5 @@
 <script>
-	import timeline from '$lib/images/timeline.png';
+	import timeline from '$lib/images/timeline.svg';
 </script>
 
 <section class="px-6 p-10" id="about">
@@ -17,7 +17,7 @@
 			</p>
 
 			<div class="items-center flex-wrap mb-30 mt-16 w-auto">
-				<img src={timeline} alt="mockup" />
+				<img class="mx-auto" src={timeline} alt="mockup" />
 			</div>
 		</div>
 	</div>

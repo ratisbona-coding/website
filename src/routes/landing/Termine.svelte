@@ -49,7 +49,9 @@
 	>
 		{#each cards as card}
 			<div class="flex justify-center w-full">
-				<div class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl">
+				<div
+					class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl hover:drop-shadow-2xl hover:cursor-pointer"
+				>
 					<div class="date ml-8 mt-8 mr-32 mb-8 text-center">
 						<h1 class="text-lime-500 text-4xl">{card.date.day}</h1>
 						<p class="text-black text-sm overflow-auto">{card.date.month}</p>

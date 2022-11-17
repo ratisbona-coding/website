@@ -1,5 +1,5 @@
 <script>
-	import hero from '$lib/images/header.png';
+	import hero from '$lib/images/header.svg';
 </script>
 
 <section class="bg-white dark:bg-gray-900 ">
