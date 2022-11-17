@@ -1,9 +1,10 @@
 <script>
 	import mitgliedBlob from '$lib/images/mitgliederBlob.png';
+	import BaseComponent from './BaseComponent.svelte';
 </script>
 
-<section class="bg-white dark:bg-gray-900 ">
-	<div class="grid max-w-screen-xl  py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+<BaseComponent headline={'Mitglied werden'} id={'member'}>
+	<div class="grid max-w-screen-xl py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
 		<div class="mr-auto place-self-center lg:col-span-5">
 			<h2
 				class="max-w-xl mb-4 text-xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-5xl dark:text-white"
@@ -25,4 +26,4 @@
 			<img class="" src={mitgliedBlob} alt="mockup" />
 		</div>
 	</div>
-</section>
+</BaseComponent>

@@ -1,5 +1,6 @@
 <script>
 	import hb from '$lib/images/hackaburg.svg';
+	import BaseComponent from './BaseComponent.svelte';
 
 	let cards = [
 		{
@@ -38,13 +39,8 @@
 	];
 </script>
 
-<section class="container mx-auto px-6 p-10" id="ziele">
-	<h2 class="text-4xl font-bold text-center text-black-800 mb-8">Termine</h2>
-	<hr class="my-4 mx-auto w-20 h-1 bg-gray-800 rounded border-0 md:my-10 dark:bg-gray-700" />
-
-	<div class="flex items-center flex-wrap mb-20" />
-
-	<div
+<BaseComponent headline={'Termine'} id={'termine'}
+	><div
 		class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-10 mt-4 w-full mb-32"
 	>
 		{#each cards as card}
@@ -66,5 +62,5 @@
 				</div>
 			</div>
 		{/each}
-	</div>
-</section>
+	</div></BaseComponent
+>
