@@ -1,5 +1,10 @@
 <script>
 	import hb from '$lib/images/hackaburg.svg';
+	import mint from '$lib/images/mint.svg';
+	import science from '$lib/images/science.svg';
+	import free from '$lib/images/free.svg';
+	import student from '$lib/images/student.svg';
+
 	import BaseComponent from './BaseComponent.svelte';
 
 	let cards = [
@@ -7,19 +12,19 @@
 			title: 'Kostenlose Events',
 			description:
 				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
-			image: 'https://via.placeholder.com/700x250'
+			image: free
 		},
 		{
 			title: 'Studierende fördern',
 			description:
 				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
-			image: hb
+			image: student
 		},
 		{
 			title: 'Forschung',
 			description:
 				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
-			image: hb
+			image: science
 		},
 		{
 			title: 'Allgemeinheit',
@@ -31,7 +36,7 @@
 			title: 'MINT',
 			description:
 				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
-			image: hb
+			image: mint
 		}
 	];
 </script>
