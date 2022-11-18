@@ -1,6 +1,6 @@
 <script>
 	import mitgliedBlob from '$lib/images/mitgliederBlob.png';
-	import BaseComponent from './BaseComponent.svelte';
+	import BaseComponent from '../components/BaseComponent.svelte';
 </script>
 
 <BaseComponent headline={'Mitglied werden'} id={'member'}>

@@ -1,6 +1,6 @@
 <script>
 	import hb from '$lib/images/hackaburg.svg';
-	import BaseComponent from './BaseComponent.svelte';
+	import BaseComponent from '../components/BaseComponent.svelte';
 
 	let cards = [
 		{

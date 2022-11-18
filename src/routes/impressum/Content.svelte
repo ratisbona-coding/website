@@ -1,5 +1,5 @@
 <script>
-	import BaseComponent from '../landing/BaseComponent.svelte';
+	import BaseComponent from '../components/BaseComponent.svelte';
 </script>
 
 <BaseComponent headline={'Impressum'} id={'impressum'}>

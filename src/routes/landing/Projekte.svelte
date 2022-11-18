@@ -4,7 +4,7 @@
 	import hashcode from '$lib/images/hackaburg-hashcode.svg';
 	import stammtisch from '$lib/images/hb-con-log.svg';
 
-	import BaseComponent from './BaseComponent.svelte';
+	import BaseComponent from '../components/BaseComponent.svelte';
 
 	let projects = [
 		{
