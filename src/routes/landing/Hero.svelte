@@ -16,7 +16,7 @@
 				Wir organisieren das ganze Jahr über eine Vielzahl an Tech-Events.
 			</p>
 		</div>
-		<div class="hidden lg:mt-0 lg:col-span-7 lg:flex mx-auto">
+		<div class="lg:mt-0 lg:col-span-7 lg:flex mx-auto">
 			<img src={hero} alt="mockup" style="width: 40rem;" />
 		</div>
 	</div>
