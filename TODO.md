@@ -11,5 +11,5 @@ Review Findings:
 - [] Google Calender für Events / JSON
 - [] Fonts direkt einbinden als assets
 - [] Verlinkungen Social Media - Konsti
-- [] Mehr Dazu auskommentieren - Konsti
+- [x] Mehr Dazu auskommentieren - Konsti
 - [] Texte fertig schreiben - Markus
