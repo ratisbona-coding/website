@@ -7,7 +7,7 @@ Review Findings:
 - [] Footer: Bei <lg Breakpoint ist die Übersicht der Vereins-Links nach links verschoben. Müssen da nochmal das Grid/Margins anpassen.
 - [] PDF für Mitgliedsantrag downloadbar - Markus
 - [x] Impressum einbinden - Konsti
-- [] Datenschutz einbinden - Konsti
+- [] Datenschutz einbinden - Konsti -> solange keine Cookies da sind, brauchen wir die nicht weil wir keine Daten erheben.
 - [] Google Calender für Events / JSON
 - [] Fonts direkt einbinden als assets
 - [x] Verlinkungen Social Media - Konsti
