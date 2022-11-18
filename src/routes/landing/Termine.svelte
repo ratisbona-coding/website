@@ -54,8 +54,8 @@
 						<p class="text-black text-sm">{card.date.time}</p>
 					</div>
 					<div class="p-8 pb-0 lg:p-0 ma-4 flex flex-col justify-start">
-						<h5 class=" text-gray-900 text-xl font-medium mb-2">{card.title}</h5>
-						<p class="text-gray-700 text-base mb-8 mr-8">
+						<h5 class=" text-gray-900 text-xl font-medium mb-2 ">{card.title}</h5>
+						<p class="text-gray-700 text-base mb-8 md:mr-8">
 							{card.description}
 						</p>
 					</div>
