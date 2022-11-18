@@ -11,11 +11,3 @@
 	<Content />
 </div>
 <Footer />
-
-<style>
-	@media (min-width: 1536px) {
-		.container {
-			max-width: 1336px;
-		}
-	}
-</style>

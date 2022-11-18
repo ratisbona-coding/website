@@ -5,7 +5,7 @@
 <footer class="p-4 bg-black sm:p-6">
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between mt-8">
-			<div class="mb-6 md:mb-0 ml-20 w-1/2 sm:gap-6 sm:grid-cols-1 lg:grid-cols-1">
+			<div class="mb-12 md:mb-0 ml-20 w-1/2 sm:gap-6 sm:grid-cols-1 lg:grid-cols-1">
 				<a href="/" class="flex items-center">
 					<img src={logo} class="mr-3 h-8 invert" alt="ratisbona coding e.V. Logo" />
 				</a>
@@ -85,8 +85,8 @@
 			</div>
 			<div class="grid grid-cols-1 ml-8 gap-8 lg:col-span-2 sm:grid-cols-2 lg:grid-cols-2">
 				<div>
-					<h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">Verein</h2>
-					<ul class="text-white dark:text-gray-400">
+					<h2 class="mb-6 ml-12 text-md font-bold text-white uppercase dark:text-white">Verein</h2>
+					<ul class="ml-12 text-white dark:text-gray-400">
 						<li class="mb-4">
 							<a href="#datenschutz" class="hover:underline">Datenschutz</a>
 						</li>
@@ -101,7 +101,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="grid-cols-1 ml-8 mr-32 w-full sm:gap-6 sm:grid-cols-1">
+				<div class="grid-cols-1 ml-12 md:mr-32 w-full sm:gap-6 sm:grid-cols-1">
 					<h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">Hackathon</h2>
 					<ul class="text-white dark:text-gray-400">
 						<li class="mb-4">

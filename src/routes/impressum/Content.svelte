@@ -70,7 +70,7 @@
 		</div>
 
 		<div class="mb-8">
-			<h2 class="font-bold">Verbraucherstreitbeilegung/Universalschlichtungsstelle</h2>
+			<p class="font-bold">Verbraucherstreitbeilegung</p>
 			<p>
 				Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
 				Verbraucherschlichtungsstelle teilzunehmen.
