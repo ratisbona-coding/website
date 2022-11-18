@@ -17,7 +17,7 @@
 				<p class="w-1/2 text-sm mt-8 font-normal text-white">Made with 💚 in Regensburg</p>
 				<div class="mt-4 flex space-x-2 text-white">
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="http://github.com" target="_blank">
+					<a href="https://github.com/ratisbona-coding" target="_blank">
 						<!-- Github -->
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="social-icon"
 							><path
@@ -29,7 +29,7 @@
 
 					<!-- Instagram -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="http://github.com" target="_blank">
+					<a href="https://www.instagram.com/ratisbonacoding" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -40,7 +40,7 @@
 
 					<!-- Linkedin -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="http://github.com" target="_blank">
+					<a href="https://www.linkedin.com/company/ratisbona-coding" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -51,7 +51,7 @@
 
 					<!-- Discord -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="http://github.com" target="_blank">
+					<a href="https://discord.gg/6dUkTU47" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -62,7 +62,7 @@
 
 					<!-- Facebook -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="http://github.com" target="_blank">
+					<a href="https://www.facebook.com/hackaburg" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -73,7 +73,7 @@
 
 					<!-- Youtube -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="http://github.com" target="_blank">
+					<a href="https://www.youtube.com/channel/UC-92ptcdIrZH5HOQ9fRX1Tw" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="social-icon"
 							><path
 								fill="currentColor"

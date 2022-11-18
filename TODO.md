@@ -10,6 +10,6 @@ Review Findings:
 - [] Datenschutz einbinden - Konsti
 - [] Google Calender für Events / JSON
 - [] Fonts direkt einbinden als assets
-- [] Verlinkungen Social Media - Konsti
+- [x] Verlinkungen Social Media - Konsti
 - [x] Mehr Dazu auskommentieren - Konsti
 - [] Texte fertig schreiben - Markus
