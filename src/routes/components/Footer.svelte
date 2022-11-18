@@ -91,7 +91,7 @@
 							<a href="#datenschutz" class="hover:underline">Datenschutz</a>
 						</li>
 						<li class="mb-4">
-							<a href="#impressum" class="hover:underline">Impressum</a>
+							<a href="/impressum" class="hover:underline">Impressum</a>
 						</li>
 						<li class="mb-4">
 							<a href="#datenschutz" class="hover:underline">Mitgliedsantrag</a>

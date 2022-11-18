@@ -41,28 +41,28 @@
 				</li>
 				<li>
 					<a
-						href="#about"
+						href="/#about"
 						class="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0 "
 						>Über uns</a
 					>
 				</li>
 				<li>
 					<a
-						href="#ziele"
+						href="/#ziele"
 						class="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0"
 						>Unsere Ziele</a
 					>
 				</li>
 				<li>
 					<a
-						href="#projekte"
+						href="/#projekte"
 						class="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0 dark:text-gray-400 "
 						>Projekte</a
 					>
 				</li>
 				<li>
 					<a
-						href="#mitglied-werden"
+						href="/#mitglied-werden"
 						class="block py-2 pr-4 pl-3 text-gray-400 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-gray-700 md:p-0 dark:text-gray-400"
 						>Mitglied werden</a
 					>

@@ -6,7 +6,7 @@ Review Findings:
 - [x] Termine: Wenn Karte <lg Breakpoint, Beschreibung des Termins zentrieren und margins für die texte anpassen. Sowohl top, als auch left/right.
 - [] Footer: Bei <lg Breakpoint ist die Übersicht der Vereins-Links nach links verschoben. Müssen da nochmal das Grid/Margins anpassen.
 - [] PDF für Mitgliedsantrag downloadbar - Markus
-- [] Impressum einbinden - Konsti
+- [x] Impressum einbinden - Konsti
 - [] Datenschutz einbinden - Konsti
 - [] Google Calender für Events / JSON
 - [] Fonts direkt einbinden als assets
