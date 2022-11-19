@@ -48,12 +48,12 @@
 				<div
 					class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl hover:drop-shadow-2xl hover:cursor-pointer"
 				>
-					<div class="date mt-8 md:ml-8 md:mt-8 md:mr-32 md:mb-8 text-center">
+					<div class="date mt-8 md:ml-14 md:mt-8 md:mb-8 text-center">
 						<h1 class="text-lime-500 text-5xl md:text-4xl">{card.date.day}</h1>
 						<p class="text-black text-sm overflow-auto">{card.date.month}</p>
 						<p class="text-black text-sm">{card.date.time}</p>
 					</div>
-					<div class="p-8 pb-0 lg:p-0 ma-4 flex flex-col justify-start">
+					<div class="p-8 pb-0 lg:p-0 md:ml-14 ma-4 flex flex-col justify-start">
 						<h5 class=" text-gray-900 text-xl font-medium mb-2 ">{card.title}</h5>
 						<p class="text-gray-700 text-base mb-8 md:mr-8">
 							{card.description}
