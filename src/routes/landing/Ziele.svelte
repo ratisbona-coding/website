@@ -5,7 +5,7 @@
 	import free from '$lib/images/free.svg';
 	import student from '$lib/images/student.svg';
 
-	import BaseComponent from './BaseComponent.svelte';
+	import BaseComponent from '../components/BaseComponent.svelte';
 
 	let cards = [
 		{

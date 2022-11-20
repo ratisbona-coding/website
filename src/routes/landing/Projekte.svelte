@@ -4,7 +4,7 @@
 	import hashcode from '$lib/images/hackaburg-hashcode.svg';
 	import stammtisch from '$lib/images/hb-con-log.svg';
 
-	import BaseComponent from './BaseComponent.svelte';
+	import BaseComponent from '../components/BaseComponent.svelte';
 
 	let projects = [
 		{
@@ -58,10 +58,13 @@
 
 					<p class="text-gray-400 text-base mt-10">{project.description}</p>
 				</div>
-				<button
+				<!--
+					Add this button when we have subpages and texts for these events 
+					<button
 					class="border-2 border-gray-800 rounded-3xl px-3 py-2 text-gray-800 cursor-pointer hover:bg-gray-800 hover:text-gray-200 w-full"
 					>Mehr dazu</button
-				>
+					>
+				-->
 			</div>
 		{/each}
 	</div>

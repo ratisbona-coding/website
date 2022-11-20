@@ -10,4 +10,6 @@
 	<Nav />
 	<Content />
 </div>
-<Footer />
+<div class="fixed bottom-0 w-full">
+	<Footer />
+</div>
