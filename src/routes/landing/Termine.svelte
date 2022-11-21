@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import hb from '$lib/images/hackaburg.svg';
 	import BaseComponent from '../components/BaseComponent.svelte';
 
