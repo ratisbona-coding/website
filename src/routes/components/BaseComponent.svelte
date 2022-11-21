@@ -8,3 +8,11 @@
 	<hr class="my-4 mx-auto w-20 h-1 bg-black rounded border-0 md:my-10 dark:bg-gray-700" />
 	<slot />
 </section>
+
+<style>
+	section:before {
+		height: 54px;
+		content: '';
+		display: block;
+	}
+</style>
