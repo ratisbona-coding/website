@@ -88,16 +88,16 @@
 					<h2 class="mb-6 ml-12 text-md font-bold text-white uppercase dark:text-white">Verein</h2>
 					<ul class="ml-12 text-white dark:text-gray-400">
 						<li class="mb-4">
-							<a href="#datenschutz" class="hover:underline">Datenschutz</a>
+							<a href="/datenschutz" class="hover:underline">Datenschutz</a>
 						</li>
 						<li class="mb-4">
 							<a href="/impressum" class="hover:underline">Impressum</a>
 						</li>
 						<li class="mb-4">
-							<a href="/datenschutz" class="hover:underline">Mitgliedsantrag</a>
+							<a href="/mitglied-werden" class="hover:underline">Mitgliedsantrag</a>
 						</li>
 						<li class="mb-4">
-							<a href="#datenschutz" class="hover:underline">Satzung</a>
+							<a href="/satzung" class="hover:underline">Satzung</a>
 						</li>
 					</ul>
 				</div>

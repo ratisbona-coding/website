@@ -61,7 +61,7 @@
 				<!--
 					Add this button when we have subpages and texts for these events 
 					<button
-					class="border-2 border-gray-800 rounded-3xl px-3 py-2 text-gray-800 cursor-pointer hover:bg-gray-800 hover:text-gray-200 w-full"
+					class="border-2 border-black rounded-3xl px-3 py-2 text-black cursor-pointer hover:bg-black hover:text-gray-200 w-full"
 					>Mehr dazu</button
 					>
 				-->

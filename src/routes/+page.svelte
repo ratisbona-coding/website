@@ -9,6 +9,7 @@
 	import Projekte from './landing/Projekte.svelte';
 	import Mitglied from './landing/Mitglied.svelte';
 	import Termine from './landing/Termine.svelte';
+	export const prerender = true;
 </script>
 
 <div class="container mx-auto">

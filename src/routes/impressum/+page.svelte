@@ -4,9 +4,10 @@
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
 	import Content from './Content.svelte';
+	export const prerender = true;
 </script>
 
-<div class="container mx-auto">
+<div class="container mx-auto mt-20">
 	<Nav />
 	<Content />
 </div>
