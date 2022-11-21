@@ -14,6 +14,7 @@
 	"devDependencies": {
 		"@popperjs/core": "^2.11.6",
 		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/adapter-cloudflare": "^1.0.0-next.40",
 		"@sveltejs/adapter-static": "^1.0.0-next.48",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
@@ -35,5 +36,8 @@
 		"typescript": "^4.7.4",
 		"vite": "^3.1.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/svelte-scroller": "^2.0.7"
+	}
 }

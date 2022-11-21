@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import hb from '$lib/images/hackaburg.svg';
 	import BaseComponent from '../components/BaseComponent.svelte';
 
@@ -40,9 +40,7 @@
 </script>
 
 <BaseComponent headline={'Termine'} id={'termine'}
-	><div
-		class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-10 mt-4 w-full mb-32"
-	>
+	><div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-10 mt-4 w-full">
 		{#each cards as card}
 			<div class="flex justify-center w-full">
 				<div
