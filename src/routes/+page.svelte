@@ -13,6 +13,7 @@
 	export const prerender = true;
 </script>
 
+<Nav />
 <div class="container mx-auto">
 	<Hero />
 	<About />
@@ -20,7 +21,7 @@
 	<Projekte />
 	<Mitglied />
 	<Termine />
-	<Kontakt />
+	<!--Kontakt /-->
 </div>
 <Footer />
 

@@ -56,7 +56,7 @@
 					<h4 class="text-gray-900 text-xl font-medium my-4 text-center">{project.organizer}</h4>
 					<h2 class="text-gray-900 text-3xl font-medium my-4 text-center">{project.event}</h2>
 
-					<p class="text-gray-400 text-base mt-10">{project.description}</p>
+					<p class="text-black text-base mt-10">{project.description}</p>
 				</div>
 				<!--
 					Add this button when we have subpages and texts for these events 

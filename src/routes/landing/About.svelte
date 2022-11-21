@@ -5,7 +5,7 @@
 
 <BaseComponent headline={'Über uns'} id={'about'}>
 	<div class="w-full md:w-1/2">
-		<p class="text-gray-400">
+		<p class="text-black">
 			Wir sind der ratisbona-coding e.V., ein <strong>gemeinnütziger</strong> Verein aus Regensburg.
 			Wir haben uns <strong>2018</strong> aus dem studentischen Oragnisationsteams des
 			<strong>Hackaburg Hackathons</strong>
