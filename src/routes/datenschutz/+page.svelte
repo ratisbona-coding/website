@@ -11,6 +11,6 @@
 	<Nav />
 	<Content />
 </div>
-<div class="bottom-0 w-full">
+<div class="w-full">
 	<Footer />
 </div>

@@ -56,9 +56,9 @@
 				<li>
 					<a href="/#termine" class="nav-element-base">Termine</a>
 				</li>
-				<!--li>
+				<li>
 					<a href="/#kontakt" class="nav-element-base">Kontakt</a>
-				</li-->
+				</li>
 			</ul>
 		</div>
 	</div>

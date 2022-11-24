@@ -3,7 +3,7 @@
 </script>
 
 <BaseComponent headline={'Satzung'}>
-	<section class="text-center">
+	<section class="text-center h-60">
 		<span>Hier findest du unsere Satzung.</span>
 		<br />
 		<a href="docs/satzung.pdf" target="_blank">
