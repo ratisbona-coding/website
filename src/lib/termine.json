@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Weihnachtsfeier",
+		"date": {
+			"day": "20",
+			"month": "Dez. 2022",
+			"time": "Di. 18.00"
+		},
+		"description": "Wir feiern gemeinsam im Degginger unsere Weihnachtsfeier. Für Glühwein, Essen, Schrott-Wichteln und Spiele ist gesorgt.",
+		"link": "",
+		"image": "https://via.placeholder.com/700x250"
+	},
+	{
+		"title": "Hackaburg 2023",
+		"date": {
+			"day": "25",
+			"month": "Mai. 2023",
+			"time": "Do. 15.00"
+		},
+		"description": "Hackaburg ist eine einzigartige Hackathon-Erfahrung, die mehr als 100 Entwickler*innen, Designer*innen und Unternehmer*innen aus der ganzen Welt zusammenbringt.",
+		"link": "",
+		"image": "https://via.placeholder.com/700x250"
+	}
+]

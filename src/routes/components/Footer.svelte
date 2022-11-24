@@ -10,8 +10,8 @@
 					<img src={logo} class="mr-3 h-8 invert" alt="ratisbona coding e.V. Logo" />
 				</a>
 				<p class="max-w-xs mt-4 text-sm text-white">
-					Hier steht eine wahnsinnig tolle Beschreibung. Trafalgar provides something something,
-					Text aus dem Mockup geklaut.
+					Schön, dass ihr auf unserer Website vorbeigeschaut habt. Mehr über uns findet ihr auf
+					unseren Social-Media Kanälen.
 				</p>
 
 				<p class="w-1/2 text-sm mt-8 font-normal text-white">Made with 💚 in Regensburg</p>

@@ -9,10 +9,11 @@
 	import Projekte from './landing/Projekte.svelte';
 	import Mitglied from './landing/Mitglied.svelte';
 	import Termine from './landing/Termine.svelte';
-	import Kontakt from './landing/Kontakt.svelte';
+	import KontaktOldSchool from './landing/KontaktOldSchool.svelte';
 	export const prerender = true;
 </script>
 
+<Nav />
 <div class="container mx-auto">
 	<Hero />
 	<About />
@@ -20,7 +21,7 @@
 	<Projekte />
 	<Mitglied />
 	<Termine />
-	<Kontakt />
+	<KontaktOldSchool />
 </div>
 <Footer />
 

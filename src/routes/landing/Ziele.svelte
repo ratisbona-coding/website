@@ -11,31 +11,31 @@
 		{
 			title: 'Kostenlose Events',
 			description:
-				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+				'Dein Geldbeutel sollte keine Hürde sein, um an einem unseren Events teilzunehmen. Daher sind alle unsere Events kostenlos. Wie wir das schaffen? - Komm doch einfach mal bei einer Vereinsitzung vorbei.',
 			image: free
 		},
 		{
 			title: 'Studierende fördern',
 			description:
-				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+				'In Regensburg studieren rund 32.000 junge Menschen. Daher wollen wir ihnen zeigen, was der IT Standort Regensburg zu bieten hat.',
 			image: student
 		},
 		{
 			title: 'Forschung',
 			description:
-				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+				'Wir wollen nicht nur Forschung und Entwicklung fördern, sondern auch Aufklärung im Bereich IT leisten/betreiben.',
 			image: science
 		},
 		{
 			title: 'Allgemeinheit',
 			description:
-				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+				'Unser Publikum ist groß: Die Förderung von Allgemeinbildung im Umgang mit neuen Technologien in der Bevölkerung steht für uns im Mittelpunkt.',
 			image: hb
 		},
 		{
 			title: 'MINT',
 			description:
-				'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt utlabore et dolor',
+				'Wir versuchen in Kooperation mit unserem Partner, den MINT-Labs Regensburg, Kinder und Jugendliche besonders von dem I in MINT zu begeistern.',
 			image: mint
 		}
 	];
@@ -44,10 +44,11 @@
 <BaseComponent headline={'Unsere Ziele'} id={'ziele'}>
 	<div class="flex items-center flex-wrap mb-20 z-1 relative">
 		<div class="w-full md:w-1/2">
-			<p class="text-gray-400">
-				Daher wollen wir dafür sorgen, dass Menschen in unserer Region wissen, welche Möglichkeiten
-				unsere Stadt bietet. Das erreichen wir das Organisieren von Events an Schulen und Rahmen für
-				Vorträge vor Publikum zu schaffen.
+			<p class="text-black">
+				Als gemeinnütziger Verein sorgen wir dafür, dass Menschen in der Region Regensburg wissen,
+				welche Möglichkeiten unsere schöne Stadt zu bieten hat. Deshalb organisieren wir Events
+				nicht nur für Schüler*Innen, sondern auch Erwachsene und Professionals. Unser Ziel ist es,
+				vor alem die IT-Szene in der Domstadt zu vernetzen, aber wir haben noch mehr geplant.
 			</p>
 		</div>
 	</div>

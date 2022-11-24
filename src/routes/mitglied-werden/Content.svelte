@@ -3,7 +3,7 @@
 </script>
 
 <BaseComponent headline={'Mitglied werden'}>
-	<section class="text-center">
+	<section class="text-center h-60">
 		<span
 			>Aktuell musst du noch ein PDF ausfüllen und uns per Mail an <b
 				>vorstand@ratisbona-coding.org</b
