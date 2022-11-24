@@ -17,19 +17,19 @@
 		{
 			title: 'Studierende fördern',
 			description:
-				'In Regensburg studieren um die 32.000 junge Menschen. Daher wollen wir ihnen zeigen, was der IT Standort Regensburg zu bieten hat.',
+				'In Regensburg studieren rund 32.000 junge Menschen. Daher wollen wir ihnen zeigen, was der IT Standort Regensburg zu bieten hat.',
 			image: student
 		},
 		{
 			title: 'Forschung',
 			description:
-				'Wi wollen Forschung und Entwicklung fördern bzw. Aufklärung im IT Bereich leisten.',
+				'Wir wollen nicht nur Forschung und Entwicklung fördern, sondern auch Aufklärung im Bereich IT leisten/betreiben.',
 			image: science
 		},
 		{
 			title: 'Allgemeinheit',
 			description:
-				'Wir versuchen auch ein breiteres Publikum anzusprechen. Die Förderung der Allgemeinbildung der Bevölkerung im Umgang mit neuen Technologien steht für uns im Mittelpunkt.',
+				'Unser Publikum ist groß: Die Förderung von Allgemeinbildung im Umgang mit neuen Technologien in der Bevölkerung steht für uns im Mittelpunkt.',
 			image: hb
 		},
 		{
@@ -45,11 +45,10 @@
 	<div class="flex items-center flex-wrap mb-20 z-1 relative">
 		<div class="w-full md:w-1/2">
 			<p class="text-black">
-				Wir als gemeinnütziger Verein wollen dafür sorgen, dass Menschen in unserer Region wissen,
-				welche Möglichkeiten unsere Stadt bietet. Das erreichen wir durch das Organisieren von
-				beispielsweise Events für Schüler*innen oder im Rahmen von Vorträge für Erwachsene zu
-				schaffen. Wir wollen hierdurch die IT Szene in Regensburg besser miteinander vernetzen.
-				Nachfolgend findet ihr unsere <b>Vereinsziele</b>.
+				Als gemeinnütziger Verein sorgen wir dafür, dass Menschen in der Region Regensburg wissen,
+				welche Möglichkeiten unsere schöne Stadt zu bieten hat. Deshalb organisieren wir Events
+				nicht nur für Schüler*Innen, sondern auch Erwachsene und Professionals. Unser Ziel ist es,
+				vor alem die IT-Szene in der Domstadt zu vernetzen, aber wir haben noch mehr geplant.
 			</p>
 		</div>
 	</div>
