@@ -44,15 +44,15 @@
 	<div class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-4 w-full">
 		{#each projects as project}
 			<div
-				class="relative p-4 col-span-1 bg-white rounded-lg overflow-hidden mt-20"
-				style="min-height: 250px"
+				class="relative p-4 col-span-1 bg-white rounded-lg overflow-hidden mt-6"
+				style="min-height: 200px"
 			>
 				<div class="mb-14">
 					<div class="relative block h-full">
 						<img class="h-80 rounded-lg mx-auto" src={project.image} alt="kommt" />
 					</div>
 				</div>
-				<div class="mb-40 box-border h-32">
+				<div class="sm:mb-24 box-border h-42">
 					<h4 class="text-gray-900 text-xl font-medium my-4 text-center">{project.organizer}</h4>
 					<h2 class="text-gray-900 text-3xl font-medium my-4 text-center">{project.event}</h2>
 

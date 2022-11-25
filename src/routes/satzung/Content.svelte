@@ -2,7 +2,7 @@
 	import BaseComponent from '../components/BaseComponent.svelte';
 </script>
 
-<BaseComponent headline={'Satzung'}>
+<BaseComponent headline={'Satzung'} id={'satzung'}>
 	<section class="text-center h-60">
 		<span>Hier findest du unsere Satzung.</span>
 		<br />
