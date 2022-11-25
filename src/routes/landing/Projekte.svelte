@@ -49,7 +49,7 @@
 			>
 				<div class="mb-14">
 					<div class="relative block h-full">
-						<img class="h-80 rounded-lg mx-auto" src={project.image} alt="kommt" />
+						<img class="h-80 rounded-lg mx-auto" src={project.image} alt="Project Graphic" />
 					</div>
 				</div>
 				<div class="sm:mb-24 box-border h-42">
