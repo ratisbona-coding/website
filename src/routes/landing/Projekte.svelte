@@ -18,7 +18,7 @@
 			organizer: 'Hackaburg',
 			event: 'Hackathon',
 			description:
-				'Kinder und Jugendliche für das Coden zu begeistern. Genau das ist die Idee hiter dem "kleinen" Ableger der Hackaburg.',
+				'Kinder und Jugendliche für das Coden zu begeistern. Genau das ist die Idee hinter dem "kleinen" Ableger der Hackaburg.',
 			image: hackaburgSchool
 		},
 		{
