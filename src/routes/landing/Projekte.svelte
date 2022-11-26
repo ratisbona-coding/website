@@ -26,7 +26,7 @@
 			event: 'Stammtisch',
 
 			description:
-				'Rgelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten oder Coder*Innen bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',
+				'Regelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten oder Coder*Innen bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',
 			image: stammtisch
 		},
 		{

@@ -6,7 +6,7 @@
 	<div class="text-center mb-32">
 		<span
 			>Wenn du mit uns in Kontakt treten möchtest, freuen wir uns über eine Mail von dir. <br />Am
-			besten an <b>vorstand@ratisbona-coding.org</b> oder einfach den unten Button drücken.</span
+			besten an <b>vorstand@ratisbona-coding.org</b> oder klicke einfach auf den Button.</span
 		>
 		<br />
 		<a href="mailto:vorstand@ratisbona-coding.org" target="_blank">
