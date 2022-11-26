@@ -11,7 +11,7 @@
 		{
 			title: 'Kostenlose Events',
 			description:
-				'Dein Geldbeutel sollte keine Hürde sein, um an einem unseren Events teilzunehmen. Daher sind alle unsere Events kostenlos. Wie wir das schaffen? - Komm doch einfach mal bei einer Vereinsitzung vorbei.',
+				'Dein Geldbeutel sollte keine Hürde sein, um an einem unserer Events teilzunehmen. Denn alle unsere Events sind kostenlos. Wie wir das schaffen? Komm doch einfach mal bei einer Vereinssitzung vorbei.',
 			image: free
 		},
 		{
@@ -48,7 +48,7 @@
 				Als gemeinnütziger Verein sorgen wir dafür, dass Menschen in der Region Regensburg wissen,
 				welche Möglichkeiten unsere schöne Stadt zu bieten hat. Deshalb organisieren wir Events
 				nicht nur für Schüler*Innen, sondern auch Erwachsene und Professionals. Unser Ziel ist es,
-				vor alem die IT-Szene in der Domstadt zu vernetzen, aber wir haben noch mehr geplant.
+				vor allem die IT-Szene in der Domstadt zu vernetzen, aber wir haben noch mehr geplant.
 			</p>
 		</div>
 	</div>
