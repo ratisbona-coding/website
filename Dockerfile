@@ -9,3 +9,4 @@ RUN npm run build
 
 FROM ratisbonacoding/nginx-cloudflare-cache
 COPY --from=build /app/build /usr/share/nginx/html
+COPY nginx.conf /etc/nginx/nginx.conf
