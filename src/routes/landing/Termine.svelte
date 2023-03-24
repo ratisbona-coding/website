@@ -22,6 +22,7 @@
 						<p class="text-gray-700 text-base mb-8 md:mr-8">
 							{card.description}
 						</p>
+						<a class="text-lime-500 text-base mb-8 md:mr-8" href="{card.link}">Anmeldung & Details</a>
 					</div>
 				</div>
 			</div>
