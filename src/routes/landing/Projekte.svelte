@@ -2,7 +2,7 @@
 	import hackaburg from '$lib/images/hackaburg.svg';
 	import hackaburgSchool from '$lib/images/hackaburg_school.svg';
 	import hashcode from '$lib/images/hackaburg-hashcode.svg';
-	import stammtisch from '$lib/images/hb-con-log.svg';
+	import stammtisch from '$lib/images/hh_logo_rgb.svg';
 
 	import BaseComponent from '../components/BaseComponent.svelte';
 
@@ -22,8 +22,8 @@
 			image: hackaburgSchool
 		},
 		{
-			organizer: 'Hackaburg',
-			event: 'Stammtisch',
+			organizer: 'Hacky Hour',
+			event: 'Netzwerkevent',
 
 			description:
 				'Regelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten oder Coder*Innen bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',

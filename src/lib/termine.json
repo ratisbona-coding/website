@@ -1,13 +1,13 @@
 [
 	{
-		"title": "Weihnachtsfeier",
+		"title": "Hacky Hour Grand Opening 🎉 | Digital Product Design",
 		"date": {
-			"day": "20",
-			"month": "Dez. 2022",
+			"day": "25",
+			"month": "Apr. 2023",
 			"time": "Di. 18.00"
 		},
-		"description": "Wir feiern gemeinsam im Degginger unsere Weihnachtsfeier. Für Glühwein, Essen, Schrott-Wichteln und Spiele ist gesorgt.",
-		"link": "",
+		"description": "Bist du bereit für das aufregendste IT-Netzwerkevent in Regensburg? Dann komm unbedingt zum Eventauftakt ins Degginger und lerne von Johannes Dorninsch, wie man herausragende Benutzererfahrungen schafft!",
+		"link": "https://eveeno.com/222777008",
 		"image": "https://via.placeholder.com/700x250"
 	},
 	{
@@ -18,7 +18,7 @@
 			"time": "Do. 15.00"
 		},
 		"description": "Hackaburg ist eine einzigartige Hackathon-Erfahrung, die mehr als 100 Entwickler*Innen, Designer*Innen und Unternehmer*Innen aus der ganzen Welt zusammenbringt.",
-		"link": "",
+		"link": "https://hackaburg.de/",
 		"image": "https://via.placeholder.com/700x250"
 	}
 ]
