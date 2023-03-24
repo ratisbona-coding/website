@@ -8,7 +8,7 @@
 			<h1
 				class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white mt-8"
 			>
-				Dein Coding Event in Regensburg
+				Deine Coding-Events in Regensburg
 			</h1>
 			<p
 				class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"

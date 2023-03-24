@@ -101,7 +101,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="grid-cols-1 ml-12 md:mr-32 w-full sm:gap-6 sm:grid-cols-1">
+				<div class="grid-cols-1 ml-12 md:mr-32 sm:gap-6 sm:grid-cols-1">
 					<h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">Hackathon</h2>
 					<ul class="text-white dark:text-gray-400">
 						<li class="mb-4">Hackaburg 2023 - coming soon</li>
