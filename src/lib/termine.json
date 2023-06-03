@@ -20,5 +20,16 @@
 		"description": "Hackaburg ist eine einzigartige Hackathon-Erfahrung, die mehr als 100 Entwickler*Innen, Designer*Innen und Unternehmer*Innen aus der ganzen Welt zusammenbringt.",
 		"link": "https://hackaburg.de/",
 		"image": "https://via.placeholder.com/700x250"
+	},
+	{
+		"title": "Hacky Hour | Ich glaube es h@ckt!",
+		"date": {
+			"day": "05",
+			"month": "Jul. 2023",
+			"time": "Do. 18.30"
+		},
+		"description": "Lasst uns gemeinsam mit Comedyhacker Tobias Schrödel im Degginger in die spannende und auch spaßige Welt dunkle Realität von Ransomwareangriffen und Cyberkriminellen abtauchen. Spaß garantiert! ",
+		"link": "https://eveeno.com/hackyhour",
+		"image": "https://via.placeholder.com/700x250"
 	}
 ]
