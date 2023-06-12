@@ -1,13 +1,12 @@
 [
 	{
-		"title": "Hackaburg 2023",
+		"title": "Vereinssitzung",
 		"date": {
-			"day": "25",
-			"month": "Mai. 2023",
-			"time": "Do. 15.00"
+			"day": "27",
+			"month": "Jun. 2023",
+			"time": "Di. 18.00"
 		},
-		"description": "Hackaburg ist eine einzigartige Hackathon-Erfahrung, die mehr als 100 Entwickler*Innen, Designer*Innen und Unternehmer*Innen aus der ganzen Welt zusammenbringt.",
-		"link": "https://hackaburg.de/",
+		"description": "Du willst dem Hackaburg-Team beitreten und uns helfen, mehr coole Events auf die Beine zu stellen? Dann schau' bei unserer nächsten Sitzung in der Techbase vorbei!",
 		"image": "https://via.placeholder.com/700x250"
 	},
 	{
@@ -17,7 +16,7 @@
 			"month": "Jul. 2023",
 			"time": "Do. 18.30"
 		},
-		"description": "Lasst uns gemeinsam mit Comedyhacker Tobias Schrödel im Degginger in die spannende und spaßige Welt von Ransomwareangriffen und Cyberkriminellen abtauchen. Spaß garantiert! ",
+		"description": "Lasst uns gemeinsam mit Comedyhacker Tobias Schrödel im Degginger in die spannende und spaßige Welt von Ransomwareangriffen und Cyberkriminellen abtauchen. Spaß garantiert!",
 		"link": "https://eveeno.com/hackyhour",
 		"image": "https://via.placeholder.com/700x250"
 	}
