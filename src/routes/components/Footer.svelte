@@ -116,14 +116,6 @@
 						<li class="mb-4">
 							<a href="https://hackaburg.de/2018" class="hover:underline">Hackaburg 2018</a>
 						</li>
-						<!-- commented out until old versions are restored
-							<li class="mb-4">
-								<a href="https://hackaburg.de/2017" class="hover:underline">Hackaburg 2017</a>
-							</li>
-							<li class="mb-4">
-								<a href="https://hackaburg.de/2016" class="hover:underline">Hackaburg 2016</a>
-							</li>
-						-->
 					</ul>
 				</div>
 			</div>
