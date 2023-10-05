@@ -9,10 +9,12 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --plugin-search-dir . --check . && eslint .",
-		"format": "prettier --plugin-search-dir . --write ."
+		"format": "prettier --plugin-search-dir . --write .",
+		"slicemachine": "start-slicemachine"
 	},
 	"devDependencies": {
 		"@popperjs/core": "^2.11.6",
+		"@slicemachine/adapter-sveltekit": "^0.3.18",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-cloudflare": "^1.0.0-next.40",
 		"@sveltejs/adapter-static": "^1.0.0-next.48",
@@ -28,16 +30,19 @@
 		"postcss": "^8.4.19",
 		"prettier": "^2.6.2",
 		"prettier-plugin-svelte": "^2.7.0",
+		"slice-machine-ui": "^1.15.0",
 		"svelte": "^3.44.0",
 		"svelte-check": "^2.7.1",
 		"svelte-preprocess": "^4.10.7",
 		"tailwindcss": "^3.2.3",
 		"tslib": "^2.3.1",
 		"typescript": "^4.7.4",
-		"vite": "^3.1.0"
+		"vite": "^4.4.10"
 	},
 	"type": "module",
 	"dependencies": {
+		"@prismicio/client": "^7.2.0",
+		"@prismicio/svelte": "^1.0.1",
 		"@sveltejs/svelte-scroller": "^2.0.7"
 	}
 }
