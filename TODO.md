@@ -1,4 +1,16 @@
-Review Findings:
+# Review Findings - 23.10.2023
+
+- [x] Termine über CMS
+- [x] Instagram integration
+- [] Mitgliedsantrag als dynamisches pdf im drive? => See issue #23
+- [x] facebook raus nehmen
+- [] discord link erneuern
+- [x] click auf hackathon in projekte geht auf letzte hackaburg page => hackathon abschnitt raus
+- [x] Termine hochshiften
+- [x] Google - Hashcode raus
+- [] Evtl Flowbite Update 1.3.2 --> 1.8.1 ? der fix
+
+# Review Findings - 01.01.2022
 
 - [x] Headline "Dein Coding Event" ab lg-Breakpoint centern, eventuell das SVG dann in Zeile darunterschieben. Sollte als Aufmacher drinbleiben. - Konsti
 - [] Projekte: Margin für divs anpassen. Bei Screen Width <300px schieben sich die Texte in den Button. Das hab ich unsauber gelöst.

@@ -16,8 +16,14 @@
 <Nav />
 <div class="container mx-auto">
 	<Hero />
-	<About />
 	<Termine />
+	<About />
+	<script
+		src="https://static.elfsight.com/platform/platform.js"
+		data-use-service-core
+		defer
+	></script>
+	<div class="elfsight-app-85cfdd71-6583-4525-93d3-53ff4349bf28" />
 	<Ziele />
 	<Projekte />
 	<Mitglied />

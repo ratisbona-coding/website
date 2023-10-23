@@ -1,7 +1,6 @@
 <script>
 	import hackaburg from '$lib/images/hackaburg.svg';
 	import hackaburgSchool from '$lib/images/hackaburg_school.svg';
-	import hashcode from '$lib/images/hackaburg-hashcode.svg';
 	import stammtisch from '$lib/images/hh_logo_rgb.svg';
 
 	import BaseComponent from '../components/BaseComponent.svelte';
@@ -28,20 +27,12 @@
 			description:
 				'Regelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten oder Coder*Innen bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',
 			image: stammtisch
-		},
-		{
-			organizer: 'Google',
-			event: 'Hashcode',
-
-			description:
-				'Hashcode ist ein jährlich von Google ausgerichteter Coding-Wettbewerb rund um den Globus. Unser lokal organisierter Hub lädt jährlich ein, sich bei Pizza den Aufgaben zu stellen.',
-			image: hashcode
 		}
 	];
 </script>
 
 <BaseComponent headline={'Projekte'} id={'projekte'}>
-	<div class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-4 w-full">
+	<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 mt-4 w-full">
 		{#each projects as project}
 			<div
 				class="relative p-4 col-span-1 bg-white rounded-lg overflow-hidden mt-6"

@@ -4,7 +4,7 @@
 </script>
 
 <BaseComponent headline={'Über uns'} id={'about'}>
-	<div class="w-full md:w-1/2">
+	<div class="w-full">
 		<p class="text-black">
 			Wir sind der ratisbona-coding e.V., ein <strong>gemeinnütziger</strong> Verein aus Regensburg.
 			Wir haben uns <strong>2018</strong> aus dem studentischen Organisationsteam des

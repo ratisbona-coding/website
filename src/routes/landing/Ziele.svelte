@@ -43,7 +43,7 @@
 
 <BaseComponent headline={'Unsere Ziele'} id={'ziele'}>
 	<div class="flex items-center flex-wrap mb-20 z-1 relative">
-		<div class="w-full md:w-1/2">
+		<div class="w-full">
 			<p class="text-black">
 				Als gemeinnütziger Verein sorgen wir dafür, dass Menschen in der Region Regensburg wissen,
 				welche Möglichkeiten unsere schöne Stadt zu bieten hat. Deshalb organisieren wir Events

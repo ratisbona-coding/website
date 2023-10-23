@@ -1,16 +1,16 @@
 <script lang="ts">
-	import BaseComponent from "../components/BaseComponent.svelte";
-	import { createClient } from "$lib/prismicio";
-	import { asDate } from "@prismicio/client";
-	import { PrismicRichText, PrismicLink } from "@prismicio/svelte";
+	import BaseComponent from '../components/BaseComponent.svelte';
+	import { createClient } from '$lib/prismicio';
+	import { asDate } from '@prismicio/client';
+	import { PrismicRichText, PrismicLink } from '@prismicio/svelte';
 
 	const prismicClient = createClient();
 
 	async function getEvents() {
-		const events = await prismicClient.getAllByType("event", {
+		const events = await prismicClient.getAllByType('event', {
 			orderings: {
-				field: "my.event.date",
-				direction: "asc"
+				field: 'my.event.date',
+				direction: 'asc'
 			}
 		});
 		return events;
@@ -19,11 +19,24 @@
 	let eventsPromise = getEvents();
 
 	// ugly but required
-	var days = ["So.", "Mo.", "Di.", "Mi.", "Do.", "Fr.", "Sa."];
-	var months = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+	var days = ['So.', 'Mo.', 'Di.', 'Mi.', 'Do.', 'Fr.', 'Sa.'];
+	var months = [
+		'Januar',
+		'Februar',
+		'März',
+		'April',
+		'Mai',
+		'Juni',
+		'Juli',
+		'August',
+		'September',
+		'Oktober',
+		'November',
+		'Dezember'
+	];
 
 	function transformMinutes(minutes: number) {
-		if (minutes === 0) return "00";
+		if (minutes === 0) return '00';
 		else return minutes;
 	}
 
@@ -32,7 +45,7 @@
 	}
 </script>
 
-<BaseComponent headline={"Termine"} id={"termine"}
+<BaseComponent headline={'Termine'} id={'termine'}
 	><div
 		class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-10 mt-4 w-full mb-20"
 	>
@@ -42,14 +55,15 @@
 			{#each events as card}
 				<div class="flex justify-center w-full">
 					<div
-						class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl hover:drop-shadow-2xl hover:cursor-pointer min-w-[90vw]"
+						class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl hover:drop-shadow-2xl hover:cursor-pointer w-full"
 					>
 						<div class="mt-8 md:ml-8 md:mt-8 md:mb-8 text-center md:w-40">
 							<h1 class="text-lime-500 text-5xl md:text-4xl">
 								{asDate(card.data.date)?.getDate()}
 							</h1>
 							<p class="text-black text-sm overflow-auto">
-								{months[asDate(card.data.date)?.getMonth() ?? 0]} {asDate(card.data.date)?.getFullYear()}
+								{months[asDate(card.data.date)?.getMonth() ?? 0]}
+								{asDate(card.data.date)?.getFullYear()}
 							</p>
 							<p class="text-black text-sm">
 								{getFormattedTime(asDate(card.data.date) ?? new Date())}
