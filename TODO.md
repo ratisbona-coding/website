@@ -8,7 +8,7 @@
 - [x] click auf hackathon in projekte geht auf letzte hackaburg page => hackathon abschnitt raus
 - [x] Termine hochshiften
 - [x] Google - Hashcode raus
-- [] Evtl Flowbite Update 1.3.2 --> 1.8.1 ? der fix
+- [x] Evtl Flowbite Update 1.3.2 --> 1.8.1 ? der fix
 
 # Review Findings - 01.01.2022
 
