@@ -17,10 +17,10 @@
 <div class="container mx-auto">
 	<Hero />
 	<About />
+	<Termine />
 	<Ziele />
 	<Projekte />
 	<Mitglied />
-	<Termine />
 	<KontaktOldSchool />
 </div>
 <Footer />
