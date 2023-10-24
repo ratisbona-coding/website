@@ -59,18 +59,6 @@
 							/></svg
 						></a
 					>
-
-					<!-- Facebook -->
-					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="https://www.facebook.com/hackaburg" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" class="social-icon"
-							><path
-								fill="currentColor"
-								d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
-							/></svg
-						></a
-					>
-
 					<!-- Youtube -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
 					<a href="https://www.youtube.com/channel/UC-92ptcdIrZH5HOQ9fRX1Tw" target="_blank">
@@ -98,23 +86,6 @@
 						</li>
 						<li class="mb-4">
 							<a href="/satzung" class="hover:underline">Satzung</a>
-						</li>
-					</ul>
-				</div>
-				<div class="grid-cols-1 ml-12 md:mr-18 sm:gap-6 sm:grid-cols-1">
-					<h2 class="mb-6 text-md font-bold text-white uppercase dark:text-white">Hackathon</h2>
-					<ul class="text-white dark:text-gray-400">
-						<li class="mb-4">
-							<a href="https://hackaburg.de" class="hover:underline">Hackaburg 2023</a>
-						</li>
-						<li class="mb-4">
-							<a href="https://hackaburg.de/2022" class="hover:underline">Hackaburg 2022</a>
-						</li>
-						<li class="mb-4">
-							<a href="https://hackaburg.de/2019" class="hover:underline">Hackaburg 2019</a>
-						</li>
-						<li class="mb-4">
-							<a href="https://hackaburg.de/2018" class="hover:underline">Hackaburg 2018</a>
 						</li>
 					</ul>
 				</div>

@@ -42,6 +42,9 @@
 					<a href="/" class="nav-element-base" aria-current="page">Home</a>
 				</li>
 				<li>
+					<a href="/#termine" class="nav-element-base">Termine</a>
+				</li>
+				<li>
 					<a href="/#about" class="nav-element-base">Über uns</a>
 				</li>
 				<li>
@@ -52,9 +55,6 @@
 				</li>
 				<li>
 					<a href="/#mitglied-werden" class="nav-element-base">Mitglied werden</a>
-				</li>
-				<li>
-					<a href="/#termine" class="nav-element-base">Termine</a>
 				</li>
 				<li>
 					<a href="/#kontakt" class="nav-element-base">Kontakt</a>
