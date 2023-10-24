@@ -10,6 +10,7 @@
 	import Mitglied from './landing/Mitglied.svelte';
 	import Termine from './landing/Termine.svelte';
 	import KontaktOldSchool from './landing/KontaktOldSchool.svelte';
+	import Hb23 from './landing/HB23.svelte';
 	export const prerender = true;
 </script>
 
@@ -25,6 +26,11 @@
 	></script>
 	<div class="elfsight-app-85cfdd71-6583-4525-93d3-53ff4349bf28" />
 	<Ziele />
+</div>
+
+<Hb23 />
+
+<div class="container mx-auto">
 	<Projekte />
 	<Mitglied />
 	<KontaktOldSchool />
