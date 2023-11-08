@@ -4,6 +4,13 @@
 	import stammtisch from '$lib/images/hh_logo_rgb.svg';
 
 	import BaseComponent from '../components/BaseComponent.svelte';
+	import { darkMode } from '../store';
+
+	let darkModeLocal = false;
+
+	const unsubscribe = darkMode.subscribe((value) => {
+		darkModeLocal = value;
+	});
 
 	let projects = [
 		{
@@ -25,37 +32,41 @@
 			event: 'Netzwerkevent',
 
 			description:
-				'Regelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten oder Coder*Innen bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',
+				'Regelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',
 			image: stammtisch
 		}
 	];
 </script>
 
 <BaseComponent headline={'Projekte'} id={'projekte'}>
-	<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 mt-4 w-full">
+	<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-4 w-full">
 		{#each projects as project}
-			<div
-				class="relative p-4 col-span-1 bg-white rounded-lg overflow-hidden mt-6"
-				style="min-height: 200px"
-			>
-				<div class="mb-14">
-					<div class="relative block h-full">
-						<img class="h-80 rounded-lg mx-auto" src={project.image} alt="Project Graphic" />
+			<div class="relative group">
+				{#if darkModeLocal}
+					<div
+						class="absolute -inset-0.5 mt-5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"
+					/>
+				{/if}
+				<div
+					class="relative p-4 col-span-1 bg-white dark:bg-gray-950 rounded-lg overflow-hidden mt-6"
+					style="min-height: 700px"
+				>
+					<div class="mb-14">
+						<div class="relative block h-full">
+							<img class="h-80 rounded-lg mx-auto" src={project.image} alt="Project Graphic" />
+						</div>
+					</div>
+					<div class="box-border h-42">
+						<h4 class="text-gray-900 dark:text-white text-xl font-medium my-4 text-center">
+							{project.organizer}
+						</h4>
+						<h2 class="text-gray-900 dark:text-white text-3xl font-medium my-4 text-center">
+							{project.event}
+						</h2>
+
+						<p class="text-black dark:text-white text-base mt-10">{project.description}</p>
 					</div>
 				</div>
-				<div class="sm:mb-24 box-border h-42">
-					<h4 class="text-gray-900 text-xl font-medium my-4 text-center">{project.organizer}</h4>
-					<h2 class="text-gray-900 text-3xl font-medium my-4 text-center">{project.event}</h2>
-
-					<p class="text-black text-base mt-10">{project.description}</p>
-				</div>
-				<!--
-					Add this button when we have subpages and texts for these events 
-					<button
-					class="border-2 border-black rounded-3xl px-3 py-2 text-black cursor-pointer hover:bg-black hover:text-gray-200 w-full"
-					>Mehr dazu</button
-					>
-				-->
 			</div>
 		{/each}
 	</div>

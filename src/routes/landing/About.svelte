@@ -1,6 +1,15 @@
 <script>
 	import timeline from '$lib/images/timeline.svg';
+	import timeline_dark from '$lib/images/timeline_dark.svg';
+
 	import BaseComponent from '../components/BaseComponent.svelte';
+	import { darkMode } from '../store';
+
+	let darkModeLocal = false;
+
+	const unsubscribe = darkMode.subscribe((value) => {
+		darkModeLocal = value;
+	});
 </script>
 
 <BaseComponent headline={'Über uns'} id={'about'}>
@@ -15,7 +24,7 @@
 		</p>
 
 		<div class="items-center flex-wrap mb-30 mt-16 w-auto">
-			<img class="mx-auto" src={timeline} alt="mockup" />
+			<img class="mx-auto" src={darkModeLocal ? timeline_dark : timeline} alt="mockup" />
 		</div>
 	</div>
 </BaseComponent>

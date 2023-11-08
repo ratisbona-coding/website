@@ -1,19 +1,36 @@
 <script>
 	import logo from '$lib/images/rb_logo.svg';
+	import logo_white from '$lib/images/rb_logo_white.svg';
 
 	let menuOpen = true;
 
 	function toggle() {
 		menuOpen = !menuOpen;
 	}
+
+	import { darkMode } from '../store';
+
+	let darkModeLocal = false;
+
+	const unsubscribe = darkMode.subscribe((value) => {
+		darkModeLocal = value;
+	});
+
+	function handleSwitchDarkMode() {
+		darkModeLocal = !darkModeLocal;
+		darkMode.set(darkModeLocal);
+		darkModeLocal
+			? document.documentElement.classList.add('dark')
+			: document.documentElement.classList.remove('dark');
+	}
 </script>
 
 <nav
-	class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
+	class="bg-white px-2 sm:px-4 py-2.5 dark:bg-black fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600"
 >
 	<div class="container flex flex-wrap items-center justify-between mx-auto">
 		<a href="https://ratisbona-coding.org" class="flex items-center">
-			<img src={logo} class="h-6 mr-3 sm:h-9" alt="Ratisbona Logo" />
+			<img src={darkModeLocal ? logo_white : logo} class="h-6 mr-3 sm:h-9" alt="Ratisbona Logo" />
 		</a>
 		<div>
 			<button
@@ -36,7 +53,7 @@
 		</div>
 		<div class={menuOpen ? ' menu hidden' : 'menu'}>
 			<ul
-				class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-black md:dark:bg-gray-900 dark:border-gray-700"
+				class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700"
 			>
 				<li>
 					<a href="/" class="nav-element-base" aria-current="page">Home</a>
@@ -58,6 +75,57 @@
 				</li>
 				<li>
 					<a href="/#kontakt" class="nav-element-base">Kontakt</a>
+				</li>
+				<li>
+					{#if darkModeLocal}
+						<button
+							type="button"
+							class="block flex items-center text-white hover:text-green-500 font-medium nav-element-base"
+							data-hs-theme-click-value="dark"
+							on:click={handleSwitchDarkMode}
+						>
+							<svg
+								class="flex-shrink-0 w-4 h-4"
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" /></svg
+							>
+						</button>
+					{/if}
+					{#if !darkModeLocal}
+						<button
+							type="button"
+							class="flex items-center text-black hover:text-green-500 font-medium nav-element-base"
+							data-hs-theme-click-value="light"
+							on:click={handleSwitchDarkMode}
+						>
+							<svg
+								class="flex-shrink-0 w-4 h-4"
+								xmlns="http://www.w3.org/2000/svg"
+								width="24"
+								height="24"
+								viewBox="0 0 24 24"
+								fill="none"
+								stroke="currentColor"
+								stroke-width="2"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								><circle cx="12" cy="12" r="4" /><path d="M12 8a2 2 0 1 0 4 4" /><path
+									d="M12 2v2"
+								/><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path
+									d="m17.66 17.66 1.41 1.41"
+								/><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path
+									d="m19.07 4.93-1.41 1.41"
+								/></svg
+							>
+						</button>
+					{/if}
 				</li>
 			</ul>
 		</div>

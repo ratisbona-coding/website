@@ -3,8 +3,15 @@
 	import { createClient } from '$lib/prismicio';
 	import { asDate } from '@prismicio/client';
 	import { PrismicRichText, PrismicLink } from '@prismicio/svelte';
+	import { darkMode } from '../store';
 
 	const prismicClient = createClient();
+
+	let darkModeLocal = false;
+
+	const unsubscribe = darkMode.subscribe((value) => {
+		darkModeLocal = value;
+	});
 
 	async function getEvents() {
 		const events = await prismicClient.getAllByType('event', {
@@ -53,32 +60,41 @@
 			<p class="text-center">Termine werden geladen...</p>
 		{:then events}
 			{#each events as card}
-				<div class="flex justify-center w-full">
-					<div
-						class="flex flex-col md:flex-row rounded-lg bg-white drop-shadow-xl hover:drop-shadow-2xl hover:cursor-pointer w-full"
-					>
-						<div class="mt-8 md:ml-8 md:mt-8 md:mb-8 text-center md:w-40">
-							<h1 class="text-lime-500 text-5xl md:text-4xl">
-								{asDate(card.data.date)?.getDate()}
-							</h1>
-							<p class="text-black text-sm overflow-auto">
-								{months[asDate(card.data.date)?.getMonth() ?? 0]}
-								{asDate(card.data.date)?.getFullYear()}
-							</p>
-							<p class="text-black text-sm">
-								{getFormattedTime(asDate(card.data.date) ?? new Date())}
-							</p>
-						</div>
-						<div class="p-8 pb-0 md:ml-8 ma-4 flex flex-col justify-start">
-							<h5 class=" text-gray-900 text-xl font-medium mb-2">{card.data.title[0]?.text}</h5>
-							<p class="text-gray-700 text-base mb-8 md:mr-8">
-								<PrismicRichText field={card.data.description} />
-							</p>
-							{#if card.data.link.url}
-								<PrismicLink field={card.data.link} class="text-lime-500 text-base mb-8 md:mr-8">
-									Anmeldung & Details
-								</PrismicLink>
-							{/if}
+				<div class="relative group">
+					{#if darkModeLocal}
+						<div
+							class="absolute -inset-0.5 -mt-1 -mb-1 bg-gradient-to-r from-pink-600 to-purple-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"
+						/>
+					{/if}
+					<div class="flex justify-center w-full">
+						<div
+							class="flex flex-col md:flex-row rounded-lg bg-white dark:bg-gray-950 drop-shadow-xl hover:drop-shadow-2xl hover:cursor-pointer w-full"
+						>
+							<div class="mt-8 md:ml-8 md:mt-8 md:mb-8 text-center md:w-40">
+								<h1 class="text-lime-500 text-5xl md:text-4xl">
+									{asDate(card.data.date)?.getDate()}
+								</h1>
+								<p class="text-black dark:text-white text-sm overflow-auto">
+									{months[asDate(card.data.date)?.getMonth() ?? 0]}
+									{asDate(card.data.date)?.getFullYear()}
+								</p>
+								<p class="text-black dark:text-white text-sm">
+									{getFormattedTime(asDate(card.data.date) ?? new Date())}
+								</p>
+							</div>
+							<div class="p-8 pb-0 md:ml-8 ma-4 flex flex-col justify-start">
+								<h5 class=" text-gray-900 dark:text-white text-xl font-medium mb-2">
+									{card.data.title[0]?.text}
+								</h5>
+								<p class="text-gray-700 dark:text-white text-base mb-8 md:mr-8">
+									<PrismicRichText field={card.data.description} />
+								</p>
+								{#if card.data.link.url}
+									<PrismicLink field={card.data.link} class="text-lime-500 text-base mb-8 md:mr-8">
+										Anmeldung & Details
+									</PrismicLink>
+								{/if}
+							</div>
 						</div>
 					</div>
 				</div>

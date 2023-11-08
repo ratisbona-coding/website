@@ -4,14 +4,14 @@
 
 <BaseComponent headline={'Impressum'} id={'impressum'}>
 	<section>
-		<h2 class="mb-2">Angaben gemäß § 5 TMG</h2>
-		<p class="mb-8">
+		<h2 class="mb-2 dark:text-white">Angaben gemäß § 5 TMG</h2>
+		<p class="mb-8 dark:text-white">
 			ratisbona coding e.V.<br />
 			Franz-Mayer-Str. 1<br />
 			93053 Regensburg
 		</p>
 
-		<p class="mb-8">
+		<p class="mb-8 dark:text-white">
 			<strong>Vertreten durch:</strong><br />
 			<span>Markus Guder (1. Vorsitzender)</span> <br />
 			<span>Sumia Dühlmeyer (2. Vorsitzende)</span><br />
@@ -19,7 +19,7 @@
 			<span>Bastian Meißner (Beisitzer)</span><br />
 		</p>
 
-		<div class="mb-8">
+		<div class="mb-8 dark:text-white">
 			<h2 class="font-bold">Kontakt</h2>
 
 			<p>E-Mail: vorstand@ratisbona-coding.org</p>
@@ -27,7 +27,7 @@
 			<p>Registergericht: Amtsgericht Regensburg</p>
 			<p>Registernummer: VR 201448</p>
 		</div>
-		<div class="mb-8">
+		<div class="mb-8 dark:text-white">
 			<h2 class="font-bold">Haftung für Inhalte</h2>
 			<p>
 				Als Diensteanbieter sind wir gem&auml;ß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten
@@ -41,8 +41,8 @@
 				umgehend entfernen.
 			</p>
 		</div>
-		<div class="mb-8">
-			<h2 class="font-bold">Haftung für Links</h2>
+		<div class="mb-8 dark:text-white">
+			<h2 class="font-bol dark:text-whited">Haftung für Links</h2>
 			<p>
 				Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen
 				Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen.
@@ -54,8 +54,8 @@
 				Rechtsverletzungen werden wir derartige Links umgehend entfernen.
 			</p>
 		</div>
-		<div class="mb-8">
-			<h2 class="font-bold">Urheberrecht</h2>
+		<div class="mb-8 dark:text-white">
+			<h2 class="font-bold dark:text-white">Urheberrecht</h2>
 			<p>
 				Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem
 				deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
@@ -69,8 +69,8 @@
 			</p>
 		</div>
 
-		<div class="mb-8">
-			<p class="font-bold">Verbraucherstreitbeilegung</p>
+		<div class="mb-8 dark:text-white">
+			<p class="font-bold dark:text-white">Verbraucherstreitbeilegung</p>
 			<p>
 				Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
 				Verbraucherschlichtungsstelle teilzunehmen.

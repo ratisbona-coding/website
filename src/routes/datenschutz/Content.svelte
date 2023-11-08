@@ -3,10 +3,12 @@
 </script>
 
 <BaseComponent headline={'Datenschutz'} id={'datenschutz'}>
-	<section class="text-justify">
-		<p class="mb-8">Wir verwenden auf dieser Seite keine Cookies, deshalb gibt's auch kein Cookie-Banner. Erfrischend, oder?
+	<section class="text-justify dark:text-white">
+		<p class="mb-8 dark:text-white">
+			Wir verwenden auf dieser Seite keine Cookies, deshalb gibt's auch kein Cookie-Banner.
+			Erfrischend, oder?
 		</p>
-		<p class="mb-4">
+		<p class="mb-4 dark:text-white">
 			Mit der folgenden Datenschutzerklärung möchten wir Sie darüber aufklären, welche Arten Ihrer
 			personenbezogenen Daten (nachfolgend auch kurz als "Daten“ bezeichnet) wir zu welchen Zwecken
 			und in welchem Umfang verarbeiten. Die Datenschutzerklärung gilt für alle von uns
@@ -15,7 +17,7 @@
 			innerhalb externer Onlinepräsenzen, wie z.B. unserer Social-Media-Profile (nachfolgend
 			zusammenfassend bezeichnet als "Onlineangebot“).
 		</p>
-		<div class="mb-4">
+		<div class="mb-4 dark:text-white">
 			<p class="underline">Vertretungsberechtigte Personen:</p>
 			<span>Markus Guder (1. Vorsitzender)</span> <br />
 			<span>Sumia Dühlmeyer (2. Vorsitzende)</span><br />
@@ -28,7 +30,7 @@
 				>
 			</p>
 		</div>
-		<div class="mb-4">
+		<div class="mb-4 dark:text-white">
 			<h3 class="underline">Kategorien betroffener Personen:</h3>
 			<ul>
 				<li>Kommunikationspartner.</li>
@@ -48,15 +50,15 @@
 				<li>Informationstechnische Infrastruktur.</li>
 			</ul>
 		</div>
-		<h3 class="underline">Maßgebliche Rechtsgrundlagen</h3>
-		<p class="mb-4">
+		<h3 class="underline dark:text-white">Maßgebliche Rechtsgrundlagen</h3>
+		<p class="mb-4 dark:text-white">
 			Im Folgenden erhalten Sie eine Übersicht der Rechtsgrundlagen der DSGVO, auf deren Basis wir
 			personenbezogene Daten verarbeiten. Bitte nehmen Sie zur Kenntnis, dass neben den Regelungen
 			der DSGVO nationale Datenschutzvorgaben in Ihrem bzw. unserem Wohn- oder Sitzland gelten
 			können. Sollten ferner im Einzelfall speziellere Rechtsgrundlagen maßgeblich sein, teilen wir
 			Ihnen diese in der Datenschutzerklärung mit.
 		</p>
-		<ul>
+		<ul class="dark:text-white">
 			<li class="">
 				<strong
 					>Vertragserfüllung und vorvertragliche Anfragen (Art. 6 Abs. 1 S. 1 lit. b) DSGVO)</strong
@@ -71,7 +73,7 @@
 				den Schutz personenbezogener Daten erfordern, überwiegen.
 			</li>
 		</ul>
-		<p class="mb-4">
+		<p class="mb-4 dark:text-white">
 			Zusätzlich zu den Datenschutzregelungen der Datenschutz-Grundverordnung gelten nationale
 			Regelungen zum Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz
 			vor Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz –
@@ -84,7 +86,7 @@
 			sowie die Einwilligung von Beschäftigten. Ferner können Landesdatenschutzgesetze der einzelnen
 			Bundesländer zur Anwendung gelangen.
 		</p>
-		<h2 class="underline font-bold">Sicherheitsmaßnahmen</h2>
+		<h2 class="underline font-bold dark:text-white">Sicherheitsmaßnahmen</h2>
 		<p>
 			Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der
 			Technik, der Implementierungskosten und der Art, des Umfangs, der Umstände und der Zwecke der
@@ -356,7 +358,8 @@
 				und/oder Rechenkapazitäten); <strong>Dienstanbieter:</strong> netcup GmbH, Daimlerstraße 25,
 				D-76185 Karlsruhe, Deutschland; <strong>Rechtsgrundlagen:</strong> Berechtigte Interessen
 				(Art. 6 Abs. 1 S. 1 lit. f) DSGVO); <strong>Website:</strong>
-				<a href="https://www.netcup.de/" rel="noreferrer "target="_blank">https://www.netcup.de/</a>;
+				<a href="https://www.netcup.de/" rel="noreferrer " target="_blank">https://www.netcup.de/</a
+				>;
 				<strong>Datenschutzerklärung:</strong>
 				<a
 					href="https://www.netcup.de/kontakt/datenschutzerklaerung.php"
@@ -542,7 +545,9 @@
 				Irland Unlimited Company, Wilton Plaza Wilton Place, Dublin 2, Irland;
 				<strong>Rechtsgrundlagen:</strong>
 				Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO); <strong>Website:</strong>
-				<a href="https://www.linkedin.com" rel="noreferrer "target="_blank">https://www.linkedin.com</a>;
+				<a href="https://www.linkedin.com" rel="noreferrer " target="_blank"
+					>https://www.linkedin.com</a
+				>;
 				<strong>Datenschutzerklärung:</strong>
 				<a href="https://www.linkedin.com/legal/privacy-policy" target="_blank" rel="noreferrer"
 					>https://www.linkedin.com/legal/privacy-policy</a

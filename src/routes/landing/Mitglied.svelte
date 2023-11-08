@@ -18,7 +18,7 @@
 			</p>
 			<a href="docs/mitgliedsantrag-ratisbona-coding.pdf" target="_blank">
 				<button
-					class="border-2 border-black rounded-3xl px-3 py-2 text-black cursor-pointer hover:bg-black hover:text-gray-200 w-full"
+					class="border-2 border-black dark:border-white rounded-3xl px-3 py-2 text-black dark:text-white cursor-pointer hover:bg-black hover:text-gray-200 w-full"
 					>Mitgliedsantrag</button
 				>
 			</a>
