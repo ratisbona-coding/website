@@ -4,7 +4,7 @@
 </script>
 
 <BaseComponent headline={'Hackaburg 2023'} id={'hackaburg22'} />
-<div class="diagonal-box p-4 md:p-0 hb22">
+<div class="bg-white dark:bg-gray-900 diagonal-box p-4 md:p-0 hb22">
 	<video class="hidden md:block w-full" preload="none" autoplay loop muted src={videoUrl} />
 	<div class="info-box text-white p-4 mt-5 md:top-1/3 md:left-1/4 md:p-8 md:max-w-xl">
 		<h2 class="text-4xl">HACKABURG 2023</h2>

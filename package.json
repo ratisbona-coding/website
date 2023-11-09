@@ -33,6 +33,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@macfja/svelte-persistent-store": "^2.4.1",
 		"@prismicio/client": "^7.2.0",
 		"@prismicio/svelte": "^1.0.1",
 		"@sveltejs/svelte-scroller": "^2.0.7"
