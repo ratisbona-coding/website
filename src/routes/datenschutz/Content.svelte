@@ -20,8 +20,8 @@
 		<div class="mb-4 dark:text-white">
 			<p class="underline">Vertretungsberechtigte Personen:</p>
 			<span>Markus Guder (1. Vorsitzender)</span> <br />
-			<span>Sumia Dühlmeyer (2. Vorsitzende)</span><br />
-			<span>Ewald Reinhardt (Kassier)</span><br />
+			<span>Ewald Reinhardt (2. Vorsitzende)</span><br />
+			<span>Samuel Roben (Kassier)</span><br />
 			<span>Bastian Meißner (Beisitzer)</span><br />
 			<p>vorstand@ratisbona-coding.org</p>
 			<p>
