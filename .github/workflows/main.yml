@@ -2,9 +2,9 @@ name: Tests and builds app
 
 on:
   push:
-    branches: [main]
+    branches: ["feat/secret"]
   pull_request:
-    branches: [main]
+    branches: ["feat/secret"]
 
 jobs:
   build:
@@ -30,4 +30,4 @@ jobs:
         with:
           push: true
           tags: |
-            ratisbonacoding/website:latest
+            ratisbonacoding/website:secret
