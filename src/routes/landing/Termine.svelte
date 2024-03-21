@@ -52,7 +52,7 @@
 	}
 </script>
 
-<BaseComponent headline={'Termine'} id={'termine'}
+<BaseComponent headline={'Dates'} id={'termine'}
 	><div
 		class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 xl:grid-cols-1 gap-10 mt-4 w-full mb-20"
 	>

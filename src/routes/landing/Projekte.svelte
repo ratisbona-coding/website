@@ -14,22 +14,22 @@
 
 	let projects = [
 		{
-			organizer: 'Hackaburg',
-			event: 'Hackathon',
+			organizer: '∤⼿⥃ⴋ⑘⾽≗⟖⥅★⫴ⴑ╭',
+			event: '№ↅ⍘Ⱔ⏚Ⱡ⧨⿶⥊ⵝ⯴ⷭⅫ',
 			description:
 				'Das Event, mit dem alles begann: Der Hackathon ist nach wie vor unser wichtiges Event und das Aushängeschild für unseren Verein.',
 			image: hackaburg
 		},
 		{
-			organizer: 'Hackaburg School',
-			event: 'Hackathon',
+			organizer: '⫐⦚⒡∙Ⳏ⣞Ⰾ█⡈⥯ⅅ⾬␘⣄⏳⥂␪ⳇ⳴⹨⋘',
+			event: 'ⵞ⎞♁⪏⟎⴪✓☶℟⡻❄',
 			description:
 				'Kinder und Jugendliche für das Coden zu begeistern. Genau das ist die Idee hinter dem "kleinen" Ableger der Hackaburg.',
 			image: hackaburgSchool
 		},
 		{
-			organizer: 'Hacky Hour',
-			event: 'Netzwerkevent',
+			organizer: '⌅⦓☓∬⿬ⰥⱲⳉ♣⨶␲⥅⠕♘',
+			event: '⍼∦▆⋲⭈⻩⻺⾟⤥❟Ⳬ⾧',
 
 			description:
 				'Regelmäßiger Austausch und Vernetzen mit anderen IT-Interessierten bei einem kühlen Getränk steht bei uns ganz hoch im Stellenwert.',
@@ -38,7 +38,7 @@
 	];
 </script>
 
-<BaseComponent headline={'Projekte'} id={'projekte'}>
+<BaseComponent headline={'Etkejorp'} id={'projekte'}>
 	<div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-10 mt-4 w-full">
 		{#each projects as project}
 			<div class="relative group">
@@ -64,10 +64,19 @@
 							{project.event}
 						</h2>
 
-						<p class="text-black dark:text-white text-base mt-10">{project.description}</p>
+						<p class="text-black dark:text-white text-base mt-10 blank">{project.description}</p>
 					</div>
 				</div>
 			</div>
 		{/each}
 	</div>
 </BaseComponent>
+
+
+<style>
+
+.blank {
+		background-color: black;
+		color: black;
+	}
+</style>

@@ -17,12 +17,12 @@
 			<h1
 				class="max-w-2xl mb-4 text-3xl font-extrabold tracking-tight leading-none md:text-4xl xl:text-6xl dark:text-white mt-8"
 			>
-				Deine Coding-Events in Regensburg
+				Your personal rebellion in London
 			</h1>
 			<p
 				class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
 			>
-				Wir organisieren das ganze Jahr über eine Vielzahl an Tech-Events.
+				Don't be a sheep. Let's try to keep our freedom from i̷̟̅̈͠n̵̦̥͒̕g̸̞͆̄̕s̴̯͆̽ŏ̴͍c̷̩̥͔̈́
 			</p>
 		</div>
 		<div class="lg:mt-0 lg:col-span-8 lg:flex mx-auto p-8">

@@ -5,7 +5,10 @@ const config: UserConfig = {
 	plugins: [sveltekit()],
 	server: {
 		fs: {
-			allow: ["slicemachine.config.json"]
+			allow: [
+				"slicemachine.config.json",
+				"static/secret.7z"
+			]
 		}
 	}
 };

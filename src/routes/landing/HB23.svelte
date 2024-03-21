@@ -7,8 +7,8 @@
 <div class="bg-white dark:bg-gray-900 diagonal-box p-4 md:p-0 hb22">
 	<video class="hidden md:block w-full" preload="none" autoplay loop muted src={videoUrl} />
 	<div class="info-box text-white p-4 mt-5 md:top-1/3 md:left-1/4 md:p-8 md:max-w-xl">
-		<h2 class="text-4xl">HACKABURG 2023</h2>
-		<p class="mt-4">
+		<h2 class="text-4xl">⣃⏛⚞␑⒦⛰Ⱕ⟚ⶼ⬡ඞ⇧</h2>
+		<p class="mt-4 blank">
 			Was geschah beim letzten Mal? 125 Teilnehmer aus ganz Deutschland und 15 Sponsoren
 			verwandelten die Räumlichkeiten der Techbase Regensburg in ein Zuhause für 20 Teams, die an
 			einer Vielzahl von einer Vielzahl von coolen Projekten. Die besten Teams wurden mit Preisen im
@@ -32,6 +32,11 @@
 		overflow: hidden;
 		margin: 0 auto;
 		display: block;
+	}
+
+	.blank {
+		background-color: white;
+		color: white;
 	}
 
 	.info-box {

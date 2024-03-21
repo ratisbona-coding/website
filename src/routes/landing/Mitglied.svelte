@@ -1,9 +1,18 @@
 <script>
 	import mitgliedBlob from '$lib/images/mitgliederBlob.png';
 	import BaseComponent from '../components/BaseComponent.svelte';
+
+	const alertMessage = () => {
+		if (window.confirm("bruh")) {
+			window.location = "kanye.png"
+		} else {
+			window.location = "kanye.png"
+		}
+	}
+
 </script>
 
-<BaseComponent headline={'Mitglied werden'} id={'mitglied-werden'}>
+<BaseComponent headline={'Become a member'} id={'mitglied-werden'}>
 	<div class="header block">
 		<div class="m-auto lg:mr-auto place-self-center lg:w-1/3">
 			<!--h2
@@ -14,12 +23,13 @@
 			<p
 				class="max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
 			>
-				Damit wir richtig durchstarten können, brauchen wir dich!
+				Do not apply here. They're watching.
 			</p>
-			<a href="docs/mitgliedsantrag-ratisbona-coding.pdf" target="_blank">
+			<a href="#">
 				<button
+					on:click={alertMessage}
 					class="border-2 border-black dark:border-white rounded-3xl px-3 py-2 text-black dark:text-white cursor-pointer hover:bg-black hover:text-gray-200 w-full"
-					>Mitgliedsantrag</button
+					>APPLY NOW!!</button
 				>
 			</a>
 

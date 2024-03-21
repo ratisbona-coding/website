@@ -17,7 +17,7 @@
 				<p class="w-1/2 text-sm mt-8 font-normal text-white">Made with 💚 in Regensburg</p>
 				<div class="mt-4 flex space-x-2 text-white">
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="https://github.com/ratisbona-coding" target="_blank">
+					<a href="#" target="_blank">
 						<!-- Github -->
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="social-icon"
 							><path
@@ -29,7 +29,7 @@
 
 					<!-- Instagram -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="https://www.instagram.com/ratisbonacoding" target="_blank">
+					<a href="#" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -40,7 +40,7 @@
 
 					<!-- Linkedin -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="https://www.linkedin.com/company/ratisbona-coding" target="_blank">
+					<a href="#" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -51,7 +51,7 @@
 
 					<!-- Discord -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="https://discord.gg/6dUkTU47" target="_blank">
+					<a href="#" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -61,7 +61,7 @@
 					>
 					<!-- Youtube -->
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
-					<a href="https://www.youtube.com/channel/UC-92ptcdIrZH5HOQ9fRX1Tw" target="_blank">
+					<a href="#" target="_blank">
 						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="social-icon"
 							><path
 								fill="currentColor"
@@ -76,16 +76,16 @@
 					<h2 class="mb-6 ml-12 text-md font-bold text-white uppercase dark:text-white">Verein</h2>
 					<ul class="ml-12 text-white dark:text-gray-400">
 						<li class="mb-4">
-							<a href="/datenschutz" class="hover:underline">Datenschutz</a>
+							<a href="#" class="hover:underline">Datenschutz</a>
 						</li>
 						<li class="mb-4">
-							<a href="/impressum" class="hover:underline">Impressum</a>
+							<a href="#" class="hover:underline">Impressum</a>
 						</li>
 						<li class="mb-4">
-							<a href="/mitglied-werden" class="hover:underline">Mitgliedsantrag</a>
+							<a href="#" class="hover:underline">Mitgliedsantrag</a>
 						</li>
 						<li class="mb-4">
-							<a href="/satzung" class="hover:underline">Satzung</a>
+							<a href="https://www.youtube.com/watch?v=nFstpT_YTro" class="hover:underline">amogus</a>
 						</li>
 					</ul>
 				</div>

@@ -59,22 +59,22 @@
 					<a href="/" class="nav-element-base" aria-current="page">Home</a>
 				</li>
 				<li>
-					<a href="/#termine" class="nav-element-base">Termine</a>
+					<a href="/#termine" class="nav-element-base">Dates</a>
 				</li>
 				<li>
-					<a href="/#about" class="nav-element-base">Über uns</a>
+					<a href="/#about" class="nav-element-base">About us</a>
 				</li>
 				<li>
-					<a href="/#ziele" class="nav-element-base">Unsere Ziele</a>
+					<a href="/#ziele" class="nav-element-base">Their goals</a>
 				</li>
 				<li>
-					<a href="/#projekte" class="nav-element-base">Projekte</a>
+					<a href="/#projekte" class="nav-element-base">Etkejorp</a>
 				</li>
 				<li>
-					<a href="/#mitglied-werden" class="nav-element-base">Mitglied werden</a>
+					<a href="/#mitglied-werden" class="nav-element-base">Become a member</a>
 				</li>
 				<li>
-					<a href="/#kontakt" class="nav-element-base">Kontakt</a>
+					<a href="/#kontakt" class="nav-element-base">Contact us</a>
 				</li>
 				<li>
 					{#if darkModeLocal}
