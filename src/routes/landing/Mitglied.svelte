@@ -4,9 +4,9 @@
 
 	const alertMessage = () => {
 		if (window.confirm("bruh")) {
-			window.location.href += "kanye.png"
+			window.location.href += "/kanye.png"
 		} else {
-			window.location.href += "kanye.png"
+			window.location.href += "/kanye.png"
 		}
 	}
 
