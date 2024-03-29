@@ -11,7 +11,7 @@
 				</a>
 				<p class="max-w-xs mt-4 text-sm text-white">
 					Schön, dass ihr auf unserer Website vorbeigeschaut habt. Mehr über uns findet ihr auf
-					unseren Social-Media Kanälen.
+					unseren Social-Media Kanälen. Untersuche sie doch genauer!
 				</p>
 
 				<p class="w-1/2 text-sm mt-8 font-normal text-white">Made with 💚 in Regensburg</p>

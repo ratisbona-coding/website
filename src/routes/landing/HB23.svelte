@@ -18,10 +18,10 @@
 		<br />
 		<!-- svelte-ignore security-anchor-rel-noreferrer -->
 		<a
-			href="https://www.youtube.com/watch?v=7dS4uvJLne0"
+			href="#"
 			class="text-md border-2 rounded-3xl px-3 py-2 cursor-pointer hover:bg-black hover:text-gray-200 w-full mt-4"
 			target="_blank"
-			>Der ganze Aftermovie
+			>Open DevTools
 		</a>
 	</div>
 </div>
