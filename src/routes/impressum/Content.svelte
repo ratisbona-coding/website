@@ -13,10 +13,10 @@
 
 		<p class="mb-8 dark:text-white">
 			<strong>Vertreten durch:</strong><br />
-			<span>Markus Guder (1. Vorsitzender)</span> <br />
-			<span>Sumia Dühlmeyer (2. Vorsitzende)</span><br />
-			<span>Ewald Reinhardt (Kassier)</span><br />
-			<span>Bastian Meißner (Beisitzer)</span><br />
+			<span>Samantha Geller (1. Vorsitzender)</span> <br />
+			<span>Brooke Pintsuk (2. Vorsitzende)</span><br />
+			<span>Samuel Roeben (Kassier)</span><br />
+			<span>Le My Ngo (Beisitzer)</span><br />
 		</p>
 
 		<div class="mb-8 dark:text-white">
