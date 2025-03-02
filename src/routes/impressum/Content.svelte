@@ -13,10 +13,10 @@
 
 		<p class="mb-8 dark:text-white">
 			<strong>Vertreten durch:</strong><br />
-			<span>Samantha Geller (1. Vorsitzender)</span> <br />
+			<span>Samantha Geller (1. Vorsitzende)</span> <br />
 			<span>Brooke Pintsuk (2. Vorsitzende)</span><br />
-			<span>Samuel Roeben (Kassier)</span><br />
-			<span>Le My Ngo (Beisitzer)</span><br />
+			<span>Samuel Roeben (Kassenwart)</span><br />
+			<span>Le My Ngo (Beisitzerin)</span><br />
 		</p>
 
 		<div class="mb-8 dark:text-white">

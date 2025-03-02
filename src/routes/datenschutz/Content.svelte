@@ -19,10 +19,10 @@
 		</p>
 		<div class="mb-4 dark:text-white">
 			<p class="underline">Vertretungsberechtigte Personen:</p>
-			<span>Markus Guder (1. Vorsitzender)</span> <br />
-			<span>Ewald Reinhardt (2. Vorsitzende)</span><br />
-			<span>Samuel Roben (Kassier)</span><br />
-			<span>Bastian Meißner (Beisitzer)</span><br />
+			<span>Samantha Geller (1. Vorsitzende)</span> <br />
+			<span>Brooke Pintsuk (2. Vorsitzende)</span><br />
+			<span>Samuel Roeben (Kassenwart)</span><br />
+			<span>Le My Ngo (Beisitzerin)</span><br />
 			<p>vorstand@ratisbona-coding.org</p>
 			<p>
 				<a href="https://ratisbona-coding.org/impressum" target="_blank" rel="noreferrer"
