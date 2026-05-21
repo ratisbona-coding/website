@@ -24,13 +24,15 @@ jobs:
       - name: Git-Pages (ratisbona-coding.org)
         run: |
           docker run --rm \
+            -e GIT_PAGES_PASSWORD=${GIT_PAGES_KEY_RC_ORG} \
             -v "${{ github.workspace }}/build:/site" \
             data.forgejo.org/git-pages/git-pages-cli:1.8.2 \
-            https://ratisbona-coding.org --upload-dir=/site --password=${GIT_PAGES_KEY_RC_ORG}
+            https://ratisbona-coding.org --upload-dir=/site
 
       - name: Git-Pages (ratisbona-coding.de)
         run: |
           docker run --rm \
+            -e GIT_PAGES_PASSWORD=${GIT_PAGES_KEY_RC_DE} \
             -v "${{ github.workspace }}/build:/site" \
             data.forgejo.org/git-pages/git-pages-cli:1.8.2 \
-            https://ratisbona-coding.org --upload-dir=/site --password=${GIT_PAGES_KEY_RC_DE}
+            https://ratisbona-coding.org --upload-dir=/site
