@@ -33,4 +33,4 @@ jobs:
           docker run --rm \
             -v "${{ github.workspace }}/build:/site" \
             data.forgejo.org/git-pages/git-pages-cli:1.8.2 \
-            https://ratisbona-coding.org --upload-dir=/site --password=${GIT_PAGES_KEY_RC_ORG}
+            https://ratisbona-coding.org --upload-dir=/site --password=${GIT_PAGES_KEY_RC_DE}
